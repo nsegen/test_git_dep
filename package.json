@@ -1,0 +1,23 @@
+{
+  "name": "test_git_dep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:nsegen/test_git_dep.git"
+  },
+  "author": "nsegen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsegen/test_git_dep/issues"
+  },
+  "homepage": "https://github.com/nsegen/test_git_dep#readme",
+  "dependencies": {
+    "test_npm_dep": "github:nsegen/test_npm_dep"
+  }
+}
